@@ -47,10 +47,7 @@ def exponentiation(num1, num2):
     Imagine that you are building a very complex function, and you want to be able to
     work with multiple people.
     """
-    val = 0.0
-    val = num1 ** num2
-    return val;
-    pass
+    return num1**num2;
 
 def modulo(num1, num2):
     """
