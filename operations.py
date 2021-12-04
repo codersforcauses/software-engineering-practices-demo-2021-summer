@@ -39,7 +39,7 @@ def division(num1, num2):
     work with multiple people.
     """
     return num1 / num2
-    pass
+
 
 def exponentiation(num1, num2):
     """
