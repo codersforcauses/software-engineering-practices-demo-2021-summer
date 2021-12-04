@@ -1,5 +1,5 @@
 # from operations import addition, subtraction, multiplication, division, exponentiation, modulo
-from operations import multiplication
+from operations import multiplication, exponentiation
 
 
 def test_addition():
