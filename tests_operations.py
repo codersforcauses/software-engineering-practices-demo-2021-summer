@@ -29,6 +29,7 @@ def test_multiplication():
     assert multiplication(0, 4) == (0)
     assert multiplication(1, -7) == (-7)
 
+
 def test_division():
     """
     GIVEN: Two numbers
