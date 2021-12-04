@@ -1,6 +1,7 @@
 # from operations import addition, subtraction, multiplication, division, exponentiation, modulo
 from operations import multiplication
 
+
 def test_addition():
     """
     GIVEN: Two numbers
@@ -52,10 +53,13 @@ def test_division_exception_on_zero():
 
 def test_exponentiation():
     """
-    GIVEN: Two numbers
-    WHEN:  passed in to the function exponentiation
-    THEN:  the resulting is the exponentiation of the two number
+    GIVEN: two numbers
+    WHEN: passed in to the function exponentiation
+    THEN: the resulting is the exponentiation of the two numbers
     """
+    assert exponentiation(2, 5) == 32
+    assert exponentiation(3, 3) == 27
+    assert exponentiation(4, 1) == 4
     pass
 
 
