@@ -47,14 +47,15 @@ def test_division_exception_on_zero():
     """
     pass
 
-
 def test_exponentiation():
     """
-    GIVEN: Two numbers
-    WHEN:  passed in to the function exponentiation
-    THEN:  the resulting is the exponentiation of the two number
+    GIVEN: two numbers
+    WHEN: passed in to the function division
+    THEN: the resulting is the exponentiation of the two numbers
     """
-    pass
+    assert exponentiation(2, 5) == 32
+    assert exponentiation(3, 3) == 27
+    assert exponentiation(4, 1) == 4
 
 
 def test_modulo():
