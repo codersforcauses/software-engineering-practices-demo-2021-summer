@@ -29,7 +29,6 @@ def multiplication(num1, num2):
     """
     pass
 
-
 def division(num1, num2):
     """
     This function will perform a division operation on num1 by num2
