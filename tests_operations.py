@@ -30,10 +30,14 @@ def test_multiplication():
 
 def test_division():
     """
-    GIVEN: Two numbers
-    WHEN:  passed in to the function division
-    THEN:  the resulting is the division of the two number
+    GIVEN: two numbers
+    WHEN: passed in to the function division
+    THEN: the resulting is the division of the two numbers
     """
+    assert division(8, 4) == 2
+    assert division(3, 3) == 1
+    assert division(5, 1) == 5
+
     pass
 
 
