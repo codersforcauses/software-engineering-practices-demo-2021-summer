@@ -52,7 +52,7 @@ def test_division_exception_on_zero():
 def test_exponentiation():
     """
     GIVEN: two numbers
-    WHEN: passed in to the function division
+    WHEN: passed in to the function exponentiation
     THEN: the resulting is the exponentiation of the two numbers
     """
     assert exponentiation(2, 5) == 32
