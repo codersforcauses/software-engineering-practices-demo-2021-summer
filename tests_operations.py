@@ -57,8 +57,9 @@ def test_exponentiation():
 
 def test_modulo():
     """
-    GIVEN: Two numbers
-    WHEN:  passed in to the function modulo
-    THEN:  the resulting is the modulo of the two number
+    GIVEN: two numbers
+    WHEN: passed in to the function division
+    THEN: the resulting is the division of the two numbers
     """
-    pass
+    assert modulo(8, 2) == 0
+    assert modulo(9, 2) == 1
