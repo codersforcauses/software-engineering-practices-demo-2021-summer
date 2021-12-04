@@ -34,6 +34,10 @@ def test_division():
     WHEN:  passed in to the function division
     THEN:  the resulting is the division of the two number
     """
+    assert division(8,4) == 4
+    assert division(0,5) == 5
+    assert division(1000000,1) == 1000000
+
     pass
 
 
