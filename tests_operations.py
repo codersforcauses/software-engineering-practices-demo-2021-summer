@@ -1,4 +1,4 @@
-# from operations import addition, subtraction, multiplication, division, exponentiation, modulo
+from operations import addition, subtraction, multiplication, division, exponentiation, modulo
 
 
 def test_addition():
@@ -47,6 +47,7 @@ def test_division_exception_on_zero():
     """
     pass
 
+
 def test_exponentiation():
     """
     GIVEN: two numbers
@@ -57,6 +58,7 @@ def test_exponentiation():
     assert exponentiation(3, 3) == 27
     assert exponentiation(4, 1) == 4
     pass
+
 
 def test_modulo():
     """
