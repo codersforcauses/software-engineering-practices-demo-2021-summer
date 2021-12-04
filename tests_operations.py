@@ -38,8 +38,6 @@ def test_division():
     assert division(0,5) == 5
     assert division(1000000,1) == 1000000
 
-    pass
-
 
 def test_division_exception_on_zero():
     """
