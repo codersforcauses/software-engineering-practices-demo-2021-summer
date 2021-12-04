@@ -56,7 +56,7 @@ def test_exponentiation():
     assert exponentiation(2, 5) == 32
     assert exponentiation(3, 3) == 27
     assert exponentiation(4, 1) == 4
-
+    pass
 
 def test_modulo():
     """
