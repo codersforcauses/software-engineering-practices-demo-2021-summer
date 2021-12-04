@@ -63,4 +63,3 @@ def test_modulo():
     """
     assert modulo(8, 2) == 0
     assert modulo(9, 2) == 1
-    
